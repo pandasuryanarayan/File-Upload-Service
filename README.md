@@ -1,4 +1,4 @@
-# Assignment 3: File Upload Service  
+# File Upload Service  
 **Author: Suryanarayan Panda**
 
 ## Objective  
