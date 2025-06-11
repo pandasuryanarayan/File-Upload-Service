@@ -1,0 +1,19 @@
+{
+  "name": "file-upload-service",
+  "version": "1.0.0",
+  "description": "A basic image upload API using Node.js, Express, and Multer.",
+  "license": "ISC",
+  "author": "Suryanarayan Panda",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.0.1"
+  },
+  "devDependencies": {}
+}
