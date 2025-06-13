@@ -1,4 +1,4 @@
-# File Upload Service  
+# Assignment 3: File Upload Service  
 **Author: Suryanarayan Panda**
 
 ## Objective  
@@ -7,27 +7,38 @@ This project is a basic image upload service built with **Node.js** and **Expres
 ---
 
 ## Features  
-- **Upload API**: A `POST` endpoint to upload a single image.  
-- **Public Access**: Uploaded images are served statically and can be accessed via a direct URL.  
-- **File Validation**: Only accepts image files (`image/jpeg`, `image/png`, etc.).  
+- **Upload API**: A `POST` endpoint to upload a single image.
+- **Public Access**: Uploaded images are served statically and can be accessed via a direct URL. 
+- **File Validation**: Only accepts image files (`image/jpeg`, `image/png`, etc.). 
 - **List API**: A `GET` endpoint to retrieve a list of all available images.
 
 ---
+## Project Structure
+
+```
+
+file-upload-service/
+├── index.js               # Main server file
+├── package.json           # Project metadata and dependencies
+├── package-lock.json      # Exact versions of installed dependencies
+└── README.md              # Project documentation
+
+```
 
 ## Setup and Installation  
 
 ### Prerequisites  
 Ensure the following software is installed:
 
-- **Node.js**: Version 22.x or later (LTS recommended)  
-  Download: [https://nodejs.org/](https://nodejs.org/)  
-- **npm**: Comes bundled with Node.js  
+- **Node.js**: Version 22.x or later (LTS recommended)
+  Download: [https://nodejs.org/](https://nodejs.org/) 
+- **npm**: Comes bundled with Node.js 
 
 Verify installation:
 ```bash
 node -v
 npm -v
-````
+```
 
 ### Steps
 
@@ -80,7 +91,7 @@ File Upload Service by Suryanarayan Panda
 
 ## API Usage
 
-Base URL: `http://localhost:3000`
+All responses are in JSON format. Base URL: `http://localhost:3000`
 
 ### 1. Upload an Image
 
